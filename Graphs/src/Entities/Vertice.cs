@@ -1,8 +1,10 @@
-namespace Graphs.src.Entities
+using System.Collections.Generic;
+
+namespace Graphs.Entities
 {
     public class Vertice
     {
-        public List<Edge> Edges { get; } = [];
+        private List<Edge> Edges { get; } = [];
         public void AddEdge(Edge pEdge)
         {
             Edges.Add(pEdge);
@@ -10,6 +12,11 @@ namespace Graphs.src.Entities
         public void RemoveEdge(Edge pEdge)
         {
             Edges.Remove(pEdge);
+        }
+
+        public int getGrade()
+        {
+            return Edges.Count;
         }
     }
 }

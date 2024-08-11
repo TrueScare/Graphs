@@ -1,4 +1,4 @@
-namespace Graphs.src.Entities
+namespace Graphs.Entities
 {
     public class Edge(Vertice pVertice1, Vertice pVertice2)
     {

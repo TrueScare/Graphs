@@ -1,6 +1,4 @@
-using Graphs.src.Interfaces;
-
-namespace Graphs.src.Entities
+namespace Graphs.Entities
 {
     public class Graph : GraphBase
     {

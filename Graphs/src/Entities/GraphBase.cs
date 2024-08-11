@@ -1,11 +1,11 @@
-using Graphs.src.Entities;
+using System.Collections.Generic;
 
-namespace Graphs.src.Interfaces
+namespace Graphs.Entities
 {
     public abstract class GraphBase
     {
-        public List<Edge> Edges { get; } = [];
-        public List<Vertice> Vertices{ get; } = [];
+        protected List<Edge> Edges { get; } = [];
+        protected List<Vertice> Vertices{ get; } = [];
         public abstract void AddEdge(Edge pEdge);
         public abstract void RemoveEdge(Edge pEdge);
         public abstract void AddEdge(Vertice pVertice1, Vertice pVertice2);

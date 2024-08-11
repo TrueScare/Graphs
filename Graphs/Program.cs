@@ -1,3 +1,3 @@
-﻿using Graphs.src.Entities;
+﻿using Graphs.Entities;
 
 var lVertice = new Vertice();
