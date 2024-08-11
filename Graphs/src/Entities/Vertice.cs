@@ -14,7 +14,7 @@ namespace Graphs.Entities
             Edges.Remove(pEdge);
         }
 
-        public int getGrade()
+        public int GetGrade()
         {
             return Edges.Count;
         }
